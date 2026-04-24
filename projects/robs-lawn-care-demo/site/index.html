@@ -20,6 +20,7 @@
       <a href="#services">Services</a>
       <a href="#pricing">Pricing</a>
       <a href="#work">Work</a>
+      <a href="#reviews">Reviews</a>
       <a href="#quote">Request Quote</a>
     </nav>
   </header>
@@ -32,6 +33,7 @@
         <p class="lead">Rob's Lawn Care helps Ypsilanti homeowners keep their grass cut, trimmed, and presentable with straightforward service and simple quote requests.</p>
         <div class="hero-actions">
           <a class="btn primary" href="#quote">Request a Quote</a>
+          <a class="btn secondary" href="sms:+17345550100?body=Hi%20Rob%2C%20I%27d%20like%20a%20lawn%20care%20estimate.%20My%20address%20or%20neighborhood%20is%3A%20">Text for Quote</a>
           <a class="btn secondary" href="tel:+17345550100">Call Rob</a>
         </div>
       </div>
@@ -50,7 +52,7 @@
     <section class="trust-strip" aria-label="Trust highlights">
       <div><strong>Starting at $30</strong><span>Standard home mowing</span></div>
       <div><strong>Ypsilanti, MI</strong><span>Local residential service</span></div>
-      <div><strong>Free estimate</strong><span>For larger or complex yards</span></div>
+      <div><strong>Text for quote</strong><span>Fast estimate request</span></div>
     </section>
 
     <section id="services" class="section">
@@ -111,8 +113,32 @@
     <section id="work" class="section photo-section">
       <div class="section-heading">
         <p class="eyebrow">Photo proof</p>
-        <h2>Real work photos can sell the service fast</h2>
-        <p>These photos are wired to the images already pushed into the repo, with the grass guy image used as the logo.</p>
+        <h2>Before and after yard improvements</h2>
+        <p>Mock before/after layouts use the uploaded lawn photos as visual placeholders. Replace labels once each exact photo is confirmed.</p>
+      </div>
+      <div class="before-after-grid">
+        <article class="before-after-card">
+          <figure>
+            <span>Before</span>
+            <img src="../../../photos%20for%20robslawncare/0416742a-5483-4e0b-bd18-77a4a6b1b567.jpeg" alt="Mock before lawn photo" />
+          </figure>
+          <figure>
+            <span>After</span>
+            <img src="../../../photos%20for%20robslawncare/59df44f7-7717-4ff1-9e2c-e05c328379f9.jpeg" alt="Mock after lawn photo" />
+          </figure>
+          <p>Standard mowing cleanup concept for a residential yard.</p>
+        </article>
+        <article class="before-after-card">
+          <figure>
+            <span>Before</span>
+            <img src="../../../photos%20for%20robslawncare/1a51c66e-1822-47cb-ac68-016854fa895c.jpeg" alt="Mock before yard photo" />
+          </figure>
+          <figure>
+            <span>After</span>
+            <img src="../../../photos%20for%20robslawncare/e2d64e18-f87f-4689-a568-30550a8080c2.jpeg" alt="Mock after yard photo" />
+          </figure>
+          <p>Maintenance visit concept showing cleaner, more presentable outdoor space.</p>
+        </article>
       </div>
       <div class="photo-grid">
         <figure><img src="../../../photos%20for%20robslawncare/0416742a-5483-4e0b-bd18-77a4a6b1b567.jpeg" alt="Rob's Lawn Care work photo 1" /><figcaption>Recent lawn work</figcaption></figure>
@@ -120,6 +146,31 @@
         <figure><img src="../../../photos%20for%20robslawncare/59df44f7-7717-4ff1-9e2c-e05c328379f9.jpeg" alt="Rob's Lawn Care work photo 3" /><figcaption>Clean mowing finish</figcaption></figure>
         <figure><img src="../../../photos%20for%20robslawncare/d0a4a339-43e9-4d40-aeba-eb817af69b04.jpeg" alt="Rob's Lawn Care work photo 4" /><figcaption>Outdoor maintenance</figcaption></figure>
         <figure><img src="../../../photos%20for%20robslawncare/e2d64e18-f87f-4689-a568-30550a8080c2.jpeg" alt="Rob's Lawn Care work photo 5" /><figcaption>Property care</figcaption></figure>
+      </div>
+    </section>
+
+    <section id="reviews" class="section reviews-section">
+      <div class="section-heading">
+        <p class="eyebrow">Sample reviews</p>
+        <h2>What customers could say</h2>
+        <p>These are demo placeholder reviews for layout only. Replace with real customer reviews before using as a live business claim.</p>
+      </div>
+      <div class="review-grid">
+        <article class="review-card">
+          <p class="stars">★★★★★</p>
+          <blockquote>Rob showed up when he said he would and left the yard looking clean. Simple, fair, and easy to work with.</blockquote>
+          <cite>Sample Review — Ypsilanti Homeowner</cite>
+        </article>
+        <article class="review-card">
+          <p class="stars">★★★★★</p>
+          <blockquote>The lawn looked much better after one visit. I liked being able to text for a quick estimate.</blockquote>
+          <cite>Sample Review — Local Resident</cite>
+        </article>
+        <article class="review-card">
+          <p class="stars">★★★★★</p>
+          <blockquote>Good option for basic mowing and cleanup without overcomplicating things. Clear pricing and fast response.</blockquote>
+          <cite>Sample Review — Residential Customer</cite>
+        </article>
       </div>
     </section>
 
@@ -143,20 +194,37 @@
           <p><strong>Mock phone:</strong> (734) 555-0100</p>
           <p><strong>Mock email:</strong> robslawncare@example.com</p>
         </div>
+        <div class="quote-actions">
+          <a class="btn primary" href="sms:+17345550100?body=Hi%20Rob%2C%20I%27d%20like%20a%20lawn%20care%20estimate.%20My%20address%20or%20neighborhood%20is%3A%20">Text for Quote</a>
+          <a class="btn secondary" href="tel:+17345550100">Call for Estimate</a>
+        </div>
       </div>
-      <form class="quote-form" action="mailto:robslawncare@example.com" method="post" enctype="text/plain">
-        <label>Name<input name="name" type="text" placeholder="Your name" /></label>
-        <label>Phone<input name="phone" type="tel" placeholder="Your phone number" /></label>
-        <label>Property type<input name="property" type="text" placeholder="Standard home, larger lot, corner lot, etc." /></label>
-        <label>What do you need?<textarea name="message" rows="4" placeholder="Mowing, trimming, cleanup, lot size, access notes, obstacles, recurring service..."></textarea></label>
-        <button type="submit">Send Quote Request</button>
-      </form>
+      <div class="estimate-layout">
+        <form class="quote-form" action="mailto:robslawncare@example.com" method="post" enctype="text/plain">
+          <label>Name<input name="name" type="text" placeholder="Your name" /></label>
+          <label>Phone<input name="phone" type="tel" placeholder="Your phone number" /></label>
+          <label>Property type<input name="property" type="text" placeholder="Standard home, larger lot, corner lot, etc." /></label>
+          <label>What do you need?<textarea name="message" rows="4" placeholder="Mowing, trimming, cleanup, lot size, access notes, obstacles, recurring service..."></textarea></label>
+          <button type="submit">Send Quote Request</button>
+        </form>
+        <aside class="estimate-card" aria-label="Estimate checklist">
+          <h3>Estimate checklist</h3>
+          <p>For a faster quote, include:</p>
+          <ul>
+            <li>Yard size or lot type</li>
+            <li>Front, back, or full yard</li>
+            <li>Fence or gate access</li>
+            <li>Slopes, trees, toys, or obstacles</li>
+            <li>One-time or recurring service</li>
+          </ul>
+        </aside>
+      </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <p>© 2026 Rob's Lawn Care. Concept demo by Website LLC / Y.O.U. — Your Own Vision.</p>
-    <p class="footer-note">Replace demo contact details before public outreach.</p>
+    <p class="footer-note">Replace demo contact details and sample reviews before public outreach.</p>
   </footer>
 </body>
 </html>
