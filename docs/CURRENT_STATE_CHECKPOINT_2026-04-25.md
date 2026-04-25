@@ -24,6 +24,7 @@ The main homepage is `index.html` and should remain a complete single-page marke
 - footer with service-area and sitemap links
 - SEO metadata
 - local business structured data
+- branded social preview asset (`assets/social-preview.svg`)
 
 ## Founder Photo
 
@@ -44,7 +45,7 @@ Do not change the homepage image path unless the replacement asset has been veri
 The site currently has local SEO/service-area pages for:
 
 - Belleville
-- Ypsilanti
+n- Ypsilanti
 - Ann Arbor
 - Detroit Metro
 
@@ -54,7 +55,7 @@ The sitemap and robots file are present and should continue pointing search engi
 
 1. Contact form is still mailto-based, not backend-backed.
 2. Founder image path is functional but messy.
-3. No PNG social preview image exists yet.
+3. PNG social preview variant does not exist yet (current asset is SVG).
 4. No analytics are installed yet.
 5. Testimonials and case studies are still placeholders / conceptual proof points until real client permission exists.
 
@@ -83,7 +84,7 @@ If using GitHub Contents API, remember it replaces the whole file. Fetch the cur
 ## Safe Next Steps
 
 1. Add a true backend form provider.
-2. Add `assets/social-preview.png` before changing OG metadata to it.
+2. Add `assets/social-preview.png` only if needed for platform compatibility.
 3. Copy founder photo to `assets/founder-photo.jpeg`, then update HTML.
 4. Add analytics.
 5. Add real testimonials/case studies after first paying client.
