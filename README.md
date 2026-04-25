@@ -3,7 +3,9 @@
 Professional websites for local businesses built to earn trust, attract customers, and drive action.
 
 ## Live Website
-https://christopherbdaugherty96.github.io/Website-LLC-Y.O.U.-You-re-Own-Vision-/
+https://christopherbdaugherty96.github.io/Auralis-Digital/
+
+> If the site does not load immediately after updates, allow a few minutes for GitHub Pages to redeploy.
 
 ## Core Idea
 Auralis Digital helps small local businesses improve weak, outdated, or missing online presence.
@@ -39,7 +41,6 @@ Auralis Digital is focused on practical websites for local service and walk-in b
 The repo is focused on proof, pipeline, and client acquisition.
 
 Current priorities:
-
 1. keep the main website clean and credible
 2. build industry-specific demo sites
 3. use demos in outreach to real local businesses
