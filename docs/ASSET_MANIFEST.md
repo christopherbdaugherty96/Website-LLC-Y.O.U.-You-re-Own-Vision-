@@ -37,16 +37,24 @@ It separates what is already usable from what is only a placeholder, so the repo
 
 | Asset | Demo type | Current status | Integrated live? | Notes |
 |---|---|---:|---:|---|
-| `assets/demo-thumbnails/restaurant.svg` | Restaurant / Coney Island | Placeholder | No | Warmer local restaurant identity. Useful for homepage/demo index cards. |
-| `assets/demo-thumbnails/lawn-care.svg` | Lawn care | Placeholder | No | Green outdoor identity. Useful for homepage/demo index cards. |
-| `assets/demo-thumbnails/barbershop.svg` | Barbershop | Placeholder | No | Black/gold shop identity. Needs final page styling later. |
-| `assets/demo-thumbnails/painter.svg` | Painter | Placeholder | No | Bright interior/color palette identity. |
-| `assets/demo-thumbnails/cleaning.svg` | Cleaning service | Placeholder | No | Fresh blue/white identity. |
-| `assets/demo-thumbnails/roofing.svg` | Roofing / contractor | Placeholder | No | Rugged roofline identity. |
-| `assets/demo-thumbnails/salon.svg` | Salon | Placeholder | No | Soft beauty/booking identity. |
-| `assets/demo-thumbnails/detailing.svg` | Mobile detailing | Placeholder | No | Glossy, dark, reflective, car-focused placeholder. Created to complete the demo thumbnail set, but not final portfolio-grade artwork. |
-| `assets/demo-thumbnails/photographer.svg` | Photographer | Placeholder | No | Gallery/camera-led placeholder. Created to complete the demo thumbnail set, but not final portfolio-grade artwork. |
-| `assets/demo-thumbnails/handyman.svg` | Maintenance / handyman | Placeholder | No | Practical tool/workshop-oriented placeholder. Created to complete the demo thumbnail set, but should be visually upgraded later. |
+| `assets/demo-thumbnails/restaurant.svg` | Restaurant / Coney Island | Placeholder | Demo index: Yes; Homepage: No | Warmer local restaurant identity. Useful for homepage/demo index cards. |
+| `assets/demo-thumbnails/lawn-care.svg` | Lawn care | Placeholder | Demo index: Yes; Homepage: No | Green outdoor identity. Useful for homepage/demo index cards. |
+| `assets/demo-thumbnails/barbershop.svg` | Barbershop | Placeholder | Demo index: Yes; Homepage: No | Black/gold shop identity. Needs final page styling later. |
+| `assets/demo-thumbnails/painter.svg` | Painter | Placeholder | Demo index: Yes; Homepage: No | Bright interior/color palette identity. |
+| `assets/demo-thumbnails/cleaning.svg` | Cleaning service | Placeholder | Demo index: Yes; Homepage: No | Fresh blue/white identity. |
+| `assets/demo-thumbnails/roofing.svg` | Roofing / contractor | Placeholder | Demo index: Yes; Homepage: No | Rugged roofline identity. |
+| `assets/demo-thumbnails/salon.svg` | Salon | Placeholder | Demo index: Yes; Homepage: No | Soft beauty/booking identity. |
+| `assets/demo-thumbnails/detailing.svg` | Mobile detailing | Placeholder | Demo index: Yes; Homepage: No | Glossy, dark, reflective, car-focused placeholder. Created to complete the demo thumbnail set, but not final portfolio-grade artwork. |
+| `assets/demo-thumbnails/photographer.svg` | Photographer | Placeholder | Demo index: Yes; Homepage: No | Gallery/camera-led placeholder. Created to complete the demo thumbnail set, but not final portfolio-grade artwork. |
+| `assets/demo-thumbnails/handyman.svg` | Maintenance / handyman | Placeholder | Demo index: Yes; Homepage: No | Practical tool/workshop-oriented placeholder. Created to complete the demo thumbnail set, but should be visually upgraded later. |
+
+---
+
+## Homepage enhancement asset
+
+| Asset | Purpose | Current status | Integrated live? | Notes |
+|---|---|---:|---:|---|
+| `assets/homepage-visual-enhancements.css` | Styles for image-backed homepage Example Work cards | Ready to integrate | No | Created but not linked from `index.html` yet. Has no live effect until the homepage patch is applied. |
 
 ---
 
@@ -82,11 +90,11 @@ Completed as placeholders:
 
 ### Priority 2 — integrate existing thumbnails
 
-Use thumbnails in:
+Partially complete:
 
-- homepage Example Work section;
-- demo index page;
-- eventually each demo page header if appropriate.
+- Demo index page: complete.
+- Homepage Example Work section: pending.
+- Individual demo page headers: optional future upgrade.
 
 ### Priority 3 — replace hero prototype with realistic image
 
