@@ -44,9 +44,9 @@ It separates what is already usable from what is only a placeholder, so the repo
 | `assets/demo-thumbnails/cleaning.svg` | Cleaning service | Placeholder | No | Fresh blue/white identity. |
 | `assets/demo-thumbnails/roofing.svg` | Roofing / contractor | Placeholder | No | Rugged roofline identity. |
 | `assets/demo-thumbnails/salon.svg` | Salon | Placeholder | No | Soft beauty/booking identity. |
-| `assets/demo-thumbnails/detailing.svg` | Mobile detailing | Missing | No | Should feel glossy, dark, reflective, car-focused. |
-| `assets/demo-thumbnails/photographer.svg` | Photographer | Missing | No | Should feel gallery-first and image-led. |
-| `assets/demo-thumbnails/handyman.svg` | Maintenance / handyman | Missing | No | Should feel reliable, practical, tool/workshop-oriented. |
+| `assets/demo-thumbnails/detailing.svg` | Mobile detailing | Placeholder | No | Glossy, dark, reflective, car-focused placeholder. Created to complete the demo thumbnail set, but not final portfolio-grade artwork. |
+| `assets/demo-thumbnails/photographer.svg` | Photographer | Placeholder | No | Gallery/camera-led placeholder. Created to complete the demo thumbnail set, but not final portfolio-grade artwork. |
+| `assets/demo-thumbnails/handyman.svg` | Maintenance / handyman | Placeholder | No | Practical tool/workshop-oriented placeholder. Created to complete the demo thumbnail set, but should be visually upgraded later. |
 
 ---
 
@@ -74,7 +74,7 @@ They are not yet sufficient for:
 
 ### Priority 1 — complete placeholder thumbnail set
 
-Create:
+Completed as placeholders:
 
 - `assets/demo-thumbnails/detailing.svg`
 - `assets/demo-thumbnails/photographer.svg`
