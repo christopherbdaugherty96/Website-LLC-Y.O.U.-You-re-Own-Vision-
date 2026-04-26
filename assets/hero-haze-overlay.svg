@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 800" aria-hidden="true">
+  <defs>
+    <filter id="soft"><feGaussianBlur stdDeviation="28"/></filter>
+    <linearGradient id="haze" x1="0" x2="1">
+      <stop offset="0" stop-color="#7dd3fc" stop-opacity="0"/>
+      <stop offset="0.28" stop-color="#7dd3fc" stop-opacity="0.18"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="0.76" stop-color="#f05bd8" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#7dd3fc" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path d="M-100 360 C260 280 520 450 850 345 C1190 235 1470 440 1810 330 C2070 248 2290 320 2500 260 V560 H-100 Z" fill="url(#haze)" filter="url(#soft)" opacity="0.9"/>
+  <path d="M-150 520 C350 450 640 575 1050 500 C1440 430 1700 560 2550 455 V760 H-150 Z" fill="#dbeafe" filter="url(#soft)" opacity="0.08"/>
+</svg>
