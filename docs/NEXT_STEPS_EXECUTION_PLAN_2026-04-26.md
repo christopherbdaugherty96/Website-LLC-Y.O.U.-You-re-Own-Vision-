@@ -1,9 +1,36 @@
-# Next Steps Execution Plan — 2026-04-26
+# Next Steps Execution Dashboard — 2026-04-26
 
-This document converts current findings into an execution-focused roadmap.
+This document converts current findings into an execution-focused operating plan.
 
 ## Core Principle
 The website is strong enough to sell from now. Priority should shift from redesign to lead generation, trust cleanup, and client acquisition.
+
+---
+
+# Do First Today
+1. Install Formspree
+2. Fix public trust bugs
+3. Contact 20 prospects
+
+---
+
+# Scoreboard / Milestones
+- [ ] First real lead captured
+- [ ] 5 outreach replies
+- [ ] First paid client
+- [ ] First testimonial
+- [ ] $1,000 total revenue
+
+---
+
+# Active Priorities Dashboard
+| Priority | Owner | Status | Target | Notes |
+|---|---|---|---|---|
+| Install real lead form | Founder | Not Started | This Week | Replace mailto flow |
+| Fix trust bugs | Founder | Not Started | This Week | Email / branding / stale copy |
+| Add analytics | Founder | Not Started | This Week | GA4 + Search Console |
+| Outreach 20 prospects | Founder | Not Started | This Week | Daily outreach blocks |
+| First paying client | Founder | Not Started | ASAP | Use current site as portfolio |
 
 ---
 
@@ -100,20 +127,22 @@ Only when clearly packaged and grounded in working capability:
 
 ---
 
-# What Not To Do Right Now
+# Weekly Operating Rhythm
+## Daily
+- Send 5 outreach messages
+- Complete 1 improvement task
+- Respond to leads quickly
 
-Avoid spending weeks on:
+## Weekly
+- Review analytics
+- Update prospect pipeline
+- Improve one conversion issue
+- Update wins / progress
+
+---
+
+# What Not To Do Right Now
 - endless redesigns
 - excessive planning docs
 - random features
 - advanced automation before first customers
-
----
-
-# Immediate Weekly Sprint
-
-1. Install Formspree
-2. Fix trust bugs
-3. Contact 20 prospects
-4. Track responses
-5. Close first client
