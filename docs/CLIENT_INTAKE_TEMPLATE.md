@@ -1,21 +1,27 @@
 # Client Intake Template
 
-Status: operating template
+Status: operating template  
+Audience: internal use before quoting or building
 
-Use this before quoting or building any website. The goal is to collect enough information to create a clear scope, avoid guessing, and make the first draft useful.
+Use this before quoting or starting any website project. The goal is to collect enough information to define scope, avoid guessing, and make the first draft useful.
 
-## Basic Business Information
+Do not skip intake. Missing details usually turn into unclear pricing, weak copy, revision delays, or launch problems.
+
+---
+
+## 1. Basic Business Information
 
 - Business name:
 - Owner / main contact:
 - Phone:
 - Email:
-- Website, if any:
-- Facebook / Instagram / TikTok / Google Business link:
+- Existing website, if any:
+- Facebook / Instagram / TikTok:
+- Google Business Profile link:
 - Business address or service area:
 - Hours:
 
-## Business Type
+## 2. Business Type
 
 - Industry:
 - Main services or products:
@@ -23,8 +29,9 @@ Use this before quoting or building any website. The goal is to collect enough i
 - Most profitable service:
 - Common customer questions:
 - Main customer type:
+- Main competitors:
 
-## Project Goal
+## 3. Primary Website Goal
 
 What should the website primarily do?
 
@@ -38,7 +45,11 @@ What should the website primarily do?
 - Support ads or social traffic
 - Other:
 
-## Current Problem
+Pick one primary goal first. Secondary goals can be included, but the page should not try to do everything equally.
+
+## 4. Current Problem
+
+What is the business struggling with right now?
 
 - No website
 - Outdated website
@@ -47,9 +58,11 @@ What should the website primarily do?
 - Hard to contact
 - Poor trust / weak visuals
 - No lead capture
+- No clear service area
+- No pricing/package clarity
 - Other:
 
-## Content Needed
+## 5. Content Needed
 
 - Services list:
 - Pricing or starting prices:
@@ -59,15 +72,17 @@ What should the website primarily do?
 - Brand colors?
 - Testimonials available?
 - Licenses, certifications, awards, or trust signals?
+- Menu, service list, package list, or gallery needed?
 
-## Competitors and References
+## 6. Competitors and References
 
 - Competitor websites:
-- Websites they like:
-- Websites they dislike:
+- Websites the client likes:
+- Websites the client dislikes:
 - Style preference: clean / bold / luxury / local / modern / simple / visual
+- Words the business wants customers to feel: trustworthy / fast / friendly / premium / local / expert / affordable
 
-## Website Scope
+## 7. Website Scope
 
 Suggested pages or sections:
 
@@ -84,7 +99,15 @@ Suggested pages or sections:
 - Menu
 - Events
 
-## Contact Flow
+Initial recommended scope:
+
+- One-page site
+- Multi-section homepage
+- Multi-page website
+- Refresh of existing site
+- Landing page only
+
+## 8. Contact Flow
 
 Preferred customer action:
 
@@ -104,14 +127,41 @@ Contact details to display:
 - Booking URL:
 - Social links:
 
-## Timeline and Budget
+Important: confirm where form submissions or inquiries should go before launch.
+
+## 9. Timeline and Budget
 
 - Desired launch date:
 - Budget range:
 - Must-have features:
 - Nice-to-have features:
 - Future upgrades:
+- Urgency level:
+
+## 10. Scope Risk Notes
+
+Flag anything that could affect price, timeline, or delivery:
+
+- Client has no photos
+- Client has no logo
+- Client needs copy written from scratch
+- Client wants online payments
+- Client wants booking integration
+- Client wants e-commerce
+- Client wants custom automation
+- Client does not own domain access
+- Client does not know hosting situation
+
+## 11. Next Step
+
+After intake, prepare one of the following:
+
+- Website Refresh quote
+- Basic Website quote
+- Standard Website quote
+- Custom quote
+- Not a fit / needs more discovery
 
 ## Notes
 
-Add anything that affects scope, timeline, pricing, or design direction.
+Add anything that affects scope, timeline, pricing, design direction, ownership, hosting, or launch readiness.
