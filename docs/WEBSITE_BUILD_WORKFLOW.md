@@ -24,6 +24,101 @@ Creativity should happen inside a reliable system, not replace the system.
 
 ---
 
+## Recommended App Stack
+
+Install the tools that support the workflow. Do not try to master everything at once.
+
+## Core Build Tools
+
+### Framer
+Best fast path for modern, animated, premium-looking websites.
+
+Use for:
+- landing pages
+- service business sites
+- fast client delivery
+- motion-heavy modern designs
+
+### Figma
+Best for layout planning, wireframes, design systems, and mockups.
+
+Use for:
+- wireframes
+- page planning
+- design systems
+- client previews
+
+### Visual Studio Code
+Best free code editor.
+
+Use for:
+- editing code
+- custom websites
+- HTML/CSS/JavaScript
+- React / Next.js projects later
+
+## Optional Code Stack (Long-Term)
+
+### Node.js
+Needed for modern web development tools.
+
+### GitHub Desktop
+Easy version control and backups.
+
+### Next.js
+For premium custom coded websites.
+
+### Tailwind CSS
+Fast styling system for modern sites.
+
+## Graphics and Assets
+
+### Canva
+Best for quick graphics, social banners, simple brand assets, and presentations.
+
+### Photopea
+Free browser-based Photoshop alternative.
+
+Use for:
+- image edits
+- transparent backgrounds
+- resizing
+- quick design fixes
+
+## Content and Copy Support
+
+### ChatGPT / AI Assistant
+Use for:
+- headlines
+- copy drafts
+- SEO ideas
+- proposals
+- client questionnaires
+- revision ideas
+
+## Operations Tools
+
+### Google Drive or Dropbox
+Store client assets and backups.
+
+### Google Sheets / Notion
+Track leads, clients, tasks, and workflows.
+
+### Google Meet / Zoom
+Client calls and reviews.
+
+## Phone Apps
+
+Use your work phone for:
+- photos
+- videos
+- client communication
+- quick edits
+- social uploads
+- maps and local visits
+
+---
+
 ## Website-Only Focus
 
 For this workflow, ignore broader automation, passive income, social channels, and unrelated future tools.
