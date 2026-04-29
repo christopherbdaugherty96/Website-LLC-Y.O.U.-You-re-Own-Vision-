@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Cinematic desert road toward a glowing future city</title>
+  <desc id="desc">A stylized but more realistic night desert scene with a moon, haze, road perspective, distant glowing city, and passing vehicle lights.</desc>
+  <defs>
+    <radialGradient id="skyMoon" cx="76%" cy="15%" r="34%">
+      <stop offset="0" stop-color="#dff3ff" stop-opacity="0.45"/>
+      <stop offset="0.22" stop-color="#78c8ff" stop-opacity="0.18"/>
+      <stop offset="0.65" stop-color="#071327" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cityGlow" cx="72%" cy="52%" r="34%">
+      <stop offset="0" stop-color="#7dd3fc" stop-opacity="0.52"/>
+      <stop offset="0.28" stop-color="#f05bd8" stop-opacity="0.26"/>
+      <stop offset="0.55" stop-color="#f7b955" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#050813" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#020512"/>
+      <stop offset="0.48" stop-color="#071326"/>
+      <stop offset="0.75" stop-color="#130b0a"/>
+      <stop offset="1" stop-color="#050813"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" x2="1">
+      <stop offset="0" stop-color="#01030a"/>
+      <stop offset="0.18" stop-color="#111723"/>
+      <stop offset="0.5" stop-color="#070a10"/>
+      <stop offset="0.82" stop-color="#111723"/>
+      <stop offset="1" stop-color="#01030a"/>
+    </linearGradient>
+    <linearGradient id="desert" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#3a2418"/>
+      <stop offset="1" stop-color="#100909"/>
+    </linearGradient>
+    <filter id="blur40"><feGaussianBlur stdDeviation="40"/></filter>
+    <filter id="blur18"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="glow"><feGaussianBlur stdDeviation="8" result="coloredBlur"/><feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="2400" height="1200" fill="url(#sky)"/>
+  <rect width="2400" height="1200" fill="url(#skyMoon)"/>
+  <rect width="2400" height="1200" fill="url(#cityGlow)"/>
+  <circle cx="1820" cy="175" r="86" fill="#eaf7ff" opacity="0.96"/>
+  <circle cx="1800" cy="156" r="18" fill="#cfe7f8" opacity="0.22"/>
+  <circle cx="1842" cy="198" r="28" fill="#aecce5" opacity="0.16"/>
+  <ellipse cx="1820" cy="175" rx="250" ry="220" fill="#7dd3fc" opacity="0.16" filter="url(#blur40)"/>
+  <g opacity="0.32">
+    <circle cx="300" cy="120" r="2" fill="#fff"/><circle cx="520" cy="200" r="1.5" fill="#7dd3fc"/><circle cx="830" cy="92" r="1.8" fill="#fff"/><circle cx="1080" cy="250" r="1.4" fill="#fff"/><circle cx="1430" cy="120" r="1.6" fill="#7dd3fc"/><circle cx="2110" cy="260" r="1.5" fill="#fff"/>
+  </g>
+  <path d="M0 710 C240 640 470 690 680 640 C900 585 1070 670 1270 620 C1500 560 1790 620 2400 540 L2400 1200 L0 1200 Z" fill="url(#desert)" opacity="0.95"/>
+  <path d="M0 760 C320 710 580 760 790 705 C1080 630 1370 750 1620 688 C1900 620 2110 660 2400 620 L2400 1200 L0 1200 Z" fill="#1b100d" opacity="0.82"/>
+  <ellipse cx="650" cy="790" rx="700" ry="120" fill="#7b4d2c" opacity="0.18" filter="url(#blur18)"/>
+  <ellipse cx="1750" cy="735" rx="720" ry="130" fill="#7b4d2c" opacity="0.16" filter="url(#blur18)"/>
+  <g opacity="0.98">
+    <rect x="1430" y="410" width="42" height="205" fill="#061225"/><rect x="1488" y="350" width="54" height="265" fill="#071528"/><rect x="1560" y="455" width="34" height="160" fill="#061225"/><rect x="1610" y="385" width="68" height="230" fill="#071528"/><rect x="1690" y="315" width="46" height="300" fill="#061225"/><rect x="1750" y="440" width="80" height="175" fill="#071528"/><rect x="1850" y="370" width="50" height="245" fill="#061225"/><rect x="1920" y="455" width="94" height="160" fill="#071528"/>
+    <path d="M1370 615 H2070" stroke="#7dd3fc" stroke-width="5" opacity="0.55" filter="url(#glow)"/>
+    <g opacity="0.9" filter="url(#glow)">
+      <path d="M1440 455 H1464 M1498 395 H1530 M1622 430 H1660 M1701 360 H1728 M1762 482 H1815 M1862 420 H1890 M1935 505 H1990" stroke="#7dd3fc" stroke-width="4"/>
+      <path d="M1442 520 H1465 M1500 470 H1531 M1622 520 H1664 M1703 450 H1730 M1766 540 H1815 M1865 500 H1894 M1932 555 H1998" stroke="#f7b955" stroke-width="4"/>
+      <path d="M1496 540 H1532 M1618 475 H1666 M1700 510 H1730 M1858 555 H1895" stroke="#f05bd8" stroke-width="4"/>
+    </g>
+  </g>
+  <ellipse cx="1710" cy="575" rx="520" ry="120" fill="#2ea8ff" opacity="0.22" filter="url(#blur40)"/>
+  <ellipse cx="1800" cy="600" rx="440" ry="80" fill="#f05bd8" opacity="0.13" filter="url(#blur40)"/>
+  <path d="M1110 605 L1290 605 L1860 1200 L500 1200 Z" fill="url(#road)" opacity="0.98"/>
+  <path d="M1190 620 L1212 620 L1280 1200 L1195 1200 Z" fill="#7dd3fc" opacity="0.20" filter="url(#glow)"/>
+  <path d="M1090 670 L520 1200" stroke="#2ea8ff" stroke-width="4" opacity="0.18"/>
+  <path d="M1310 670 L1850 1200" stroke="#2ea8ff" stroke-width="4" opacity="0.18"/>
+  <g filter="url(#glow)">
+    <path d="M1030 930 C980 970 900 1030 780 1110" stroke="#7dd3fc" stroke-width="10" stroke-linecap="round" opacity="0.75"/>
+    <path d="M1380 860 C1480 920 1570 995 1710 1100" stroke="#f05bd8" stroke-width="8" stroke-linecap="round" opacity="0.62"/>
+    <path d="M1220 760 C1270 810 1320 865 1370 930" stroke="#f7b955" stroke-width="6" stroke-linecap="round" opacity="0.58"/>
+  </g>
+  <rect x="0" y="0" width="1150" height="1200" fill="url(#leftFade)" opacity="0"/>
+  <path d="M0 0 H2400 V1200 H0 Z" fill="rgba(5,8,19,0.18)"/>
+</svg>

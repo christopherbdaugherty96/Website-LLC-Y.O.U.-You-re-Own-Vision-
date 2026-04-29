@@ -1,0 +1,194 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 42 38% 96%;
+    --foreground: 220 38% 13%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 38% 13%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 197 78% 28%;
+    --primary-foreground: 42 45% 97%;
+
+    --secondary: 185 38% 89%;
+    --secondary-foreground: 199 58% 18%;
+
+    --muted: 42 28% 90%;
+    --muted-foreground: 220 16% 42%;
+
+    --accent: 25 86% 58%;
+    --accent-foreground: 220 38% 13%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 207 24% 84%;
+    --input: 207 24% 84%;
+    --ring: 197 78% 28%;
+
+    --radius: 0.9rem;
+    --surface: 42 45% 98%;
+    --surface-ink: 219 42% 11%;
+    --teal-soft: 188 55% 86%;
+    --gold-soft: 38 88% 83%;
+    --gradient-hero: radial-gradient(circle at 18% 18%, hsl(var(--gold-soft) / 0.55), transparent 30%), radial-gradient(circle at 84% 12%, hsl(var(--teal-soft) / 0.85), transparent 34%), linear-gradient(135deg, hsl(42 45% 98%), hsl(195 45% 92%));
+    --gradient-card: linear-gradient(145deg, hsl(var(--card) / 0.94), hsl(195 45% 96% / 0.82));
+    --gradient-ink: linear-gradient(135deg, hsl(219 42% 11%), hsl(197 70% 20%));
+    --shadow-soft: 0 18px 60px -32px hsl(220 38% 13% / 0.28);
+    --shadow-conversion: 0 18px 34px -18px hsl(var(--primary) / 0.58);
+    --shadow-conversion-hover: 0 24px 44px -18px hsl(var(--primary) / 0.68);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: "Manrope", "Avenir Next", system-ui, sans-serif;
+    font-feature-settings: "ss01" on, "cv01" on;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: "Outfit", "Manrope", system-ui, sans-serif;
+    letter-spacing: 0;
+  }
+}
+
+@layer components {
+  .auralis-page { @apply relative min-h-screen bg-background text-foreground; background: var(--gradient-hero); }
+  .site-shell { @apply relative z-10 mx-auto w-full max-w-7xl px-5 sm:px-8 lg:px-10; }
+  .ambient-layer { @apply pointer-events-none fixed inset-0 z-0 overflow-hidden; }
+  .ambient-grid { @apply absolute inset-0 opacity-40; background-image: linear-gradient(hsl(var(--foreground) / 0.05) 1px, transparent 1px), linear-gradient(90deg, hsl(var(--foreground) / 0.05) 1px, transparent 1px); background-size: 48px 48px; mask-image: linear-gradient(to bottom, black, transparent 82%); }
+  .parallax-shape { @apply absolute rounded-full blur-3xl; }
+  .shape-one { @apply -left-24 top-32 h-80 w-80 bg-secondary/70; }
+  .shape-two { @apply -right-28 top-[34rem] h-96 w-96 bg-accent/25; }
+  .hero-section { @apply relative min-h-[92vh] py-16 sm:py-20 lg:py-24; }
+  .hero-grid { @apply grid items-center gap-14 lg:grid-cols-[1fr_0.92fr]; }
+  .hero-copy { @apply max-w-3xl animate-fade-up; }
+  .eyebrow, .section-label { @apply mb-5 inline-flex items-center gap-2 rounded-full border border-primary/15 bg-card/65 px-4 py-2 text-sm font-bold uppercase tracking-[0.16em] text-primary shadow-soft backdrop-blur-xl; }
+  .hero-copy h1 { @apply max-w-4xl text-5xl font-black leading-[0.95] text-foreground sm:text-6xl lg:text-7xl; }
+  .hero-subhead { @apply mt-7 max-w-2xl text-lg leading-8 text-muted-foreground sm:text-xl; }
+  .cta-row { @apply mt-9 flex flex-col gap-3 sm:flex-row; }
+  .cta-row.centered { @apply justify-center; }
+  .hero-preview-wrap { @apply relative mx-auto min-h-[560px] w-full max-w-[590px] animate-scale-in-soft; }
+  .hero-preview { @apply absolute left-1/2 top-16 w-[86%] -translate-x-1/2 overflow-hidden rounded-[2rem] border border-card/80 bg-card/75 p-4 shadow-soft backdrop-blur-2xl; }
+  .preview-topbar { @apply mb-4 flex gap-2; }
+  .preview-topbar span { @apply h-3 w-3 rounded-full bg-muted; }
+  .preview-hero { @apply grid min-h-64 grid-cols-[1fr_0.62fr] items-end gap-4 rounded-[1.35rem] bg-[image:var(--gradient-ink)] p-6 text-primary-foreground; }
+  .preview-kicker { @apply mb-3 text-xs font-bold uppercase tracking-[0.16em] opacity-75; }
+  .preview-hero h2 { @apply max-w-[13rem] text-3xl font-black leading-none; }
+  .preview-phone { @apply ml-auto h-56 w-32 rounded-[1.8rem] border border-primary-foreground/20 bg-primary-foreground/10 p-3 shadow-2xl; }
+  .phone-speaker { @apply mx-auto mb-4 h-1.5 w-10 rounded-full bg-primary-foreground/30; }
+  .phone-card { @apply mb-3 h-16 rounded-xl bg-primary-foreground/25; }
+  .phone-line { @apply mb-2 h-2 rounded-full bg-primary-foreground/30; }
+  .phone-line.short { @apply w-2/3; }
+  .phone-button { @apply mt-5 h-8 rounded-full bg-accent; }
+  .preview-grid { @apply mt-4 grid grid-cols-3 gap-3; }
+  .preview-panel { @apply h-20 rounded-2xl bg-secondary/70; }
+  .preview-panel.strong { @apply bg-accent/45; }
+  .preview-cta-row { @apply mt-4 flex gap-3; }
+  .preview-cta-row span { @apply h-11 flex-1 rounded-full bg-primary/15; }
+  .floating-benefit { @apply absolute z-20 flex items-center gap-2 rounded-2xl border border-card/80 bg-card/80 px-4 py-3 text-sm font-extrabold text-foreground shadow-soft backdrop-blur-2xl animate-float; }
+  .floating-benefit svg { @apply size-5 text-primary; }
+  .hero-card-one { @apply left-0 top-10; }
+  .hero-card-two { @apply right-0 top-8; animation-delay: 0.2s; }
+  .hero-card-three { @apply bottom-20 left-4; animation-delay: 0.4s; }
+  .hero-card-four { @apply bottom-10 right-2; animation-delay: 0.6s; }
+  .section-band, .content-section, .final-cta-section { @apply relative py-20 sm:py-24; }
+  .section-band { @apply bg-card/30 backdrop-blur-sm; }
+  .section-heading { @apply mx-auto mb-12 max-w-3xl text-center; }
+  .section-heading.compact { @apply mx-0 text-left; }
+  .section-heading h2 { @apply text-3xl font-black leading-tight sm:text-5xl; }
+  .problem-layout { @apply grid items-center gap-8 lg:grid-cols-[0.85fr_1fr]; }
+  .problem-card { @apply rounded-[1.75rem] border border-card/80 bg-card/75 p-8 text-lg leading-8 text-muted-foreground shadow-soft backdrop-blur-xl sm:p-10; }
+  .service-grid { @apply grid gap-5 md:grid-cols-2 lg:grid-cols-3; }
+  .service-card, .concept-card, .process-step { @apply rounded-[1.5rem] border border-card/80 bg-[image:var(--gradient-card)] p-6 shadow-soft backdrop-blur-xl transition-all duration-300 hover:-translate-y-2 hover:shadow-conversion; }
+  .icon-tile { @apply mb-6 flex size-12 items-center justify-center rounded-2xl bg-primary/10 text-primary; }
+  .icon-tile.large { @apply mx-auto size-14; }
+  .service-card h3, .concept-card h3, .process-step h3 { @apply mb-3 text-xl font-black; }
+  .service-card p, .concept-card p, .process-step p { @apply leading-7 text-muted-foreground; }
+  .process-line { @apply relative grid gap-5 md:grid-cols-5; }
+  .process-line::before { @apply absolute left-6 right-6 top-8 hidden h-px bg-border md:block; content: ""; }
+  .step-number { @apply mb-5 inline-flex h-12 w-12 items-center justify-center rounded-full bg-primary text-sm font-black text-primary-foreground shadow-conversion; }
+  .concept-grid { @apply grid gap-5 md:grid-cols-2 lg:grid-cols-5; }
+  .concept-header { @apply mb-6 flex items-center justify-between gap-3 text-xs font-black uppercase tracking-[0.14em] text-primary; }
+  .concept-header svg { @apply size-6; }
+  .trust-layout { @apply grid gap-10 lg:grid-cols-[0.78fr_1fr]; }
+  .trust-grid { @apply grid gap-4 sm:grid-cols-2; }
+  .trust-pill { @apply flex items-center gap-3 rounded-2xl border border-card/80 bg-card/70 p-4 font-bold shadow-soft backdrop-blur-xl; }
+  .trust-pill svg { @apply size-5 shrink-0 text-primary; }
+  .final-cta { @apply mx-auto max-w-4xl rounded-[2rem] border border-primary/10 bg-[image:var(--gradient-ink)] p-8 text-center text-primary-foreground shadow-soft sm:p-14; }
+  .final-cta h2 { @apply text-3xl font-black leading-tight sm:text-5xl; }
+  .final-cta p { @apply mx-auto mt-5 max-w-2xl text-lg leading-8 text-primary-foreground/75; }
+  .reveal-up { @apply translate-y-6 opacity-0 transition-all duration-700 ease-out; }
+  .reveal-up.is-visible { @apply translate-y-0 opacity-100; }
+}
