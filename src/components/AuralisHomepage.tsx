@@ -17,6 +17,7 @@ import {
   SearchCheck,
   Scissors,
   Sparkles,
+  Star,
   Store,
   UtensilsCrossed,
   Wine,
@@ -146,6 +147,25 @@ const faqs = [
   {
     q: "What areas do you serve?",
     a: "Southeast Michigan — Belleville, Ypsilanti, Ann Arbor, Detroit Metro, Downriver, and surrounding communities.",
+  },
+];
+
+const proofPoints = [
+  {
+    stat: "Mobile-first",
+    detail: "Every site is built around phone visitors first — because that's where local customers check before they call.",
+  },
+  {
+    stat: "No surprise scope",
+    detail: "Final price and page count are confirmed before work starts. Revisions are documented and capped.",
+  },
+  {
+    stat: "You own everything",
+    detail: "Domain, hosting, and files stay yours. No lock-in, no proprietary platform that disappears.",
+  },
+  {
+    stat: "Built for action",
+    detail: "Every site is designed around one goal: make it easy for visitors to call, book, or request a quote.",
   },
 ];
 
@@ -542,6 +562,42 @@ export default function AuralisHomepage() {
                 </Reveal>
               ))}
             </div>
+          </div>
+        </section>
+
+        {/* ── Proof / Results ─────────────────────────────── */}
+        <section className="content-section">
+          <div className="site-shell">
+            <Reveal className="section-heading">
+              <span className="section-label">Why it works</span>
+              <h2>What separates a site that gets calls from one that gets ignored.</h2>
+              <p className="mt-4 text-lg text-muted-foreground">
+                Testimonials are added as clients launch. In the meantime, here is the honest reasoning behind every decision.
+              </p>
+            </Reveal>
+            <div className="grid gap-5 sm:grid-cols-2">
+              {proofPoints.map((p) => (
+                <Reveal key={p.stat} className="service-card flex flex-col gap-3">
+                  <div className="flex items-center gap-2">
+                    <Star className="size-4 shrink-0 text-primary" aria-hidden="true" />
+                    <span className="text-base font-black text-foreground">{p.stat}</span>
+                  </div>
+                  <p className="text-sm text-muted-foreground">{p.detail}</p>
+                </Reveal>
+              ))}
+            </div>
+            <Reveal className="mt-8">
+              <div className="service-card border-primary/20 bg-primary/5 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+                <div>
+                  <p className="text-sm font-black uppercase tracking-widest text-primary">Client results</p>
+                  <p className="mt-1 text-base font-bold text-foreground">Real testimonials posted as projects complete.</p>
+                  <p className="mt-1 text-sm text-muted-foreground">No invented reviews. Proof is earned, not faked.</p>
+                </div>
+                <Button variant="conversion" size="lg" className="shrink-0" asChild>
+                  <a href="#contact">Get a Free Website Review <ArrowRight aria-hidden="true" /></a>
+                </Button>
+              </div>
+            </Reveal>
           </div>
         </section>
 

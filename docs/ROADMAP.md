@@ -205,13 +205,16 @@ Rule: do not build advanced automation before there are real clients and real wo
 
 | Area | Status | Next Action |
 |---|---|---|
-| Live website | Complete | Verify mobile/regression |
-| Branding metadata | Not Started | Fix browser tab and OG tags |
-| Working links / CTAs | Not Started | Restore tel:, mailto:, demo links |
-| Retainer section on homepage | Not Started | Add to index.html |
-| Lead capture backend | Not Started | Install Formspree per `FORMSPREE_SETUP.md` |
-| Analytics / Search Console | Not Started | Set up per `ANALYTICS_SETUP.md` |
-| Example work / proof section | Not Started | Add named concept sites |
+| Live website | Complete | Monitor for regressions |
+| Branding metadata | **Complete** | title, OG, Twitter all updated |
+| Working links / CTAs | **Complete** | tel:, mailto:, demo links all wired |
+| Mobile navigation | **Complete** | Hamburger menu with full nav + CTAs |
+| Retainer section on homepage | **Complete** | $250/mo Monthly Care Plan card added |
+| "Who this is for" section | **Complete** | 5 industry concept cards added |
+| Proof / results section | **Complete** | Honest section with CTA; ready for real testimonials |
+| Static assets in deployment | **Complete** | assets/, HTML pages copied to dist in workflow |
+| Lead capture backend | **Pending your action** | Create Formspree account, paste endpoint into `FORMSPREE_ENDPOINT` |
+| Analytics / Search Console | Not Started | Set up per `ANALYTICS_SETUP.md` (requires account) |
 | Outreach packet | Complete | Start using for prospects |
 | Intake questionnaire | Complete | Use when lead is interested |
 | Quick estimate guide | Complete | Use before quoting |
@@ -220,7 +223,7 @@ Rule: do not build advanced automation before there are real clients and real wo
 | Proof workflow / case study | Complete | Use after delivery |
 | First real outreach | Not Started | Contact 20 qualified prospects |
 | First paid client | Not Started | Follow up and send proposal |
-| First testimonial / case study | Not Started | Capture after delivery |
+| First testimonial / case study | Not Started | Capture after delivery — replace proof section placeholder |
 | Hosting upgrade (Vercel/Netlify) | Not Started | Do after first revenue |
 
 ---
