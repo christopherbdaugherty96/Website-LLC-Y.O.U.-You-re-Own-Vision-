@@ -73,4 +73,4 @@ The repo now includes internal operating documents for selling, building, launch
 
 Auralis Digital  
 Email: auralisdigitaleco@gmail.com  
-Phone: 734-444-8558
+Phone:
