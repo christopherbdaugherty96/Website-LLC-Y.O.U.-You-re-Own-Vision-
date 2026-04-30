@@ -1,247 +1,257 @@
-# Auralis Digital Roadmap
+# Auralis Digital — Roadmap
 
-Last updated: 2026-04-26
+Last updated: 2026-04-30
 
-## Purpose
+## Current State (Truth)
 
-This is the current alignment roadmap for Auralis Digital.
+**You have:**
 
-It does not replace the approved supporting docs. It puts them in the correct execution order so the repo has one clear operating path.
+- Clear service offering
+- Pricing structure ($250 refresh → $1,000+ custom)
+- $250/month retainer model
+- Full client lifecycle docs
+- Hosting/domain policy
+- Revision control
+- Migration complete (GitHub Pages → Vite)
+- Live upgraded website
 
-## Current Mission
+**You do not have yet:**
 
-Move from website-building and planning into lead capture, outreach, first-client acquisition, delivery, and proof.
+- Real form backend (still mailto)
+- Testimonials or proof
+- Strong lead capture system
+- Deployment maturity (GitHub Pages only)
+- Repeatable client acquisition pipeline
 
-The website is strong enough to sell from now. The current priority is not another redesign. The priority is real leads, real conversations, first revenue, clean delivery, and public proof.
+---
 
-## Current Truth
+## Priority Order (Do This First)
 
-Auralis Digital is a Michigan-focused local business website service.
+1. Fix branding metadata (browser tab, OG tags)
+2. Restore working links and CTAs (tel:, mailto:, demo links)
+3. Add retainer section to homepage
+4. Add real form backend (Formspree)
+5. Add example work section
+6. Start outreach
+7. Then consider hosting upgrade
 
-Current public offer:
+---
 
-- Website Refresh — starts at $250
-- Basic Website — starts at $500+
-- Standard Website — starts at $1,000+
-- Premium / Custom — quote based
+## Phase 1 — Stabilize the Live Site
 
-Current strengths:
+Target: immediately
 
-- Live public website
-- Clear service and pricing structure
-- Demo library
-- Local service-area pages
-- Founder-led positioning
-- Outreach and proposal docs exist
-- Lead-capture strategy is defined
-- Documentation map is aligned
-- Public launch checklist exists
-- Formspree and analytics setup guides exist
-- Outreach packet exists
-- Intake and quick estimate guides exist
-- First-client delivery checklist exists
-- Proof workflow and case study template exist
-- Confirmed public brand drift pages reviewed so far have been corrected
-- First-pass placeholder searches found no obvious placeholder terms
+Goal: make the current site fully credible and functional.
 
-Current gaps:
+Tasks:
 
-- Contact form is still mailto-based until Formspree or another backend is installed
-- No analytics/Search Console confirmation yet
-- No real testimonials or case studies yet
-- Full manual review of every demo page is still recommended before sending demos to prospects
-- Full browser/mobile regression testing is still recommended after public page edits
-- Newer delivery/proof docs are ready but untested against a real client project
+- [ ] Fix branding metadata (browser tab title, OG tags)
+- [ ] Restore all working links: phone (tel:), email (mailto:), demo links
+- [ ] Add $250/month retainer section to homepage
+- [ ] Ensure all CTAs actually do something
+- [ ] Verify mobile layout, images, spacing, and responsiveness
+- [ ] Run full browser/mobile regression check
+
+Success criteria: site feels complete instead of "almost done"
+
+---
+
+## Phase 2 — Real Lead Capture
+
+Target: this week
+
+Goal: stop relying on mailto as the primary conversion path.
+
+Tasks:
+
+- [ ] Choose form system — Formspree (fastest, use `docs/FORMSPREE_SETUP.md`)
+- [ ] Replace mailto with a real submission form with success confirmation
+- [ ] Route submissions to email (optionally Google Sheets)
+- [ ] Add spam protection
+- [ ] Verify form submissions end-to-end
+- [ ] Add Google Analytics 4 (use `docs/ANALYTICS_SETUP.md`)
+- [ ] Add Google Search Console
+
+Success criteria: you have a real lead funnel with tracking active
+
+---
+
+## Phase 3 — Trust and Proof Layer
+
+Target: next 30 days alongside outreach
+
+Goal: make the site believable to strangers.
+
+Tasks:
+
+- [ ] Add named "Example Work" section with concept sites
+- [ ] Add "Who this is for" section
+- [ ] Add 1–2 real testimonials once available — do not fake proof
+- [ ] Publish first case study (use `docs/CASE_STUDY_TEMPLATE.md`)
+- [ ] Add before/after screenshots after first delivery
+- [ ] Create or optimize Google Business Profile
+
+Success criteria: visitors trust you faster; at least one real client result is public
+
+---
+
+## Phase 4 — Deployment Upgrade
+
+Target: after first revenue
+
+Goal: move from "working" to "clean long-term setup."
+
+Current reality: GitHub Pages is working but not ideal long-term.
+
+Tasks:
+
+- [ ] Decide: Vercel (recommended) or Netlify
+- [ ] Connect repo to chosen platform
+- [ ] Deploy preview environment
+- [ ] Test build before switching domain
+- [ ] Migrate domain (optional but recommended)
+
+Success criteria: better builds, easier updates, fewer edge issues
+
+---
+
+## Phase 5 — Client Acquisition System
+
+Target: next 30 days
+
+Goal: turn this into a real business pipeline.
+
+Tasks:
+
+- [ ] Identify local targets: barbershops, restaurants, lawn care, contractors
+- [ ] Use `docs/CLIENT_INTAKE_TEMPLATE.md` and `docs/QUOTE_AND_SCOPE_TEMPLATE.md`
+- [ ] Contact 20 qualified local prospects
+- [ ] Track prospects in `docs/LEADS_ACTIVE_OUTREACH.csv`
+- [ ] Use `docs/OUTREACH_PACKET.md` for prospect messages
+- [ ] Use response scripts when leads reply (`docs/RESPONSE_SCRIPTS_WHEN_LEADS_REPLY_2026-04-24.md`)
+- [ ] Use intake questionnaire when a lead is interested (`docs/CLIENT_INTAKE_QUESTIONNAIRE.md`)
+- [ ] Send niche-relevant demo links
+- [ ] Follow up consistently
+
+Weekly targets: 25 researched / 10 contacted / 5 follow-ups / 2 conversations / 1 proposal
+
+Success criteria: first repeatable clients
+
+---
+
+## Phase 6 — Delivery Efficiency
+
+Target: after first client says yes
+
+Goal: reduce time per client, deliver without chaos.
+
+Use your docs:
+
+- `docs/WEBSITE_BUILD_WORKFLOW.md`
+- `docs/REVISION_POLICY.md`
+- `docs/CLIENT_HANDOFF_CHECKLIST.md`
+- `docs/HOSTING_AND_DOMAIN_CHECKLIST.md`
+- `docs/FIRST_CLIENT_DELIVERY_CHECKLIST.md`
+
+Tasks:
+
+- [ ] Follow workflow strictly on first real project
+- [ ] Enforce revision limits per policy
+- [ ] Standardize build structure across projects
+- [ ] Track time spent per project
+- [ ] Identify which package is easiest to sell and deliver
+
+Success criteria: a client can move from lead to launch without custom chaos
+
+---
+
+## Phase 7 — Retainer System
+
+Target: at every handoff
+
+Goal: turn one-time clients into recurring revenue.
+
+Already defined: $250/month retainer
+
+Tasks:
+
+- [ ] Add retainer to homepage (if not already done in Phase 1)
+- [ ] Offer retainer at every project handoff
+- [ ] Define internal behavior: monthly check-in, updates, small improvements
+- [ ] Document what is and is not included in retainer scope
+
+Success criteria: predictable monthly income
+
+---
+
+## Phase 8 — Optional Expansion
+
+Target: only after everything above works
+
+Ideas (do not mix into core offer yet):
+
+- Nova-powered lead summaries and auto-replies
+- Simple CRM dashboard
+- Custom lead backend
+- Client portal
+- Analytics reporting dashboard
+- Booking/calendar flow
+
+Rule: do not build advanced automation before there are real clients and real workflow problems.
+
+---
 
 ## Status Tracker
 
-| Area | Status | Next Action | Notes |
-|---|---|---|---|
-| Documentation map | Complete | Maintain as docs change | `docs/INDEX.md` is current authority map |
-| Roadmap | Complete / Active | Update only when priorities change | This file controls current execution order |
-| Public launch checklist | Complete | Use before outreach | `docs/PUBLIC_LAUNCH_CHECKLIST.md` |
-| Founder page brand cleanup | Complete | Recheck in browser/mobile | `about-christopher.html` aligned to Auralis |
-| Website services page cleanup | Complete | Recheck in browser/mobile | `website-llc.html` aligned to Auralis |
-| Public brand drift search | First pass complete | Continue manual review as pages change | Searches for old brand terms returned no hits |
-| Placeholder search | First pass complete | Manually review demos before outreach | Obvious placeholder terms returned no hits |
-| Lead capture backend | Not Started | Create Formspree form and add endpoint | Requires account-side action |
-| Formspree setup doc | Complete | Use when endpoint is ready | `docs/FORMSPREE_SETUP.md` |
-| Analytics/Search Console | Not Started | Create GA4/Search Console and add tags | Requires account-side action |
-| Analytics setup doc | Complete | Use during setup | `docs/ANALYTICS_SETUP.md` |
-| Outreach packet | Complete | Start using for prospect messages | `docs/OUTREACH_PACKET.md` |
-| Intake questionnaire | Complete | Use when lead is interested | `docs/CLIENT_INTAKE_QUESTIONNAIRE.md` |
-| Quick estimate guide | Complete | Use before quoting | `docs/QUICK_ESTIMATE_GUIDE.md` |
-| Delivery checklist | Complete | Use when first client says yes | `docs/FIRST_CLIENT_DELIVERY_CHECKLIST.md` |
-| Proof workflow | Complete | Use after successful delivery | `docs/CLIENT_PROOF_WORKFLOW.md` and `docs/CASE_STUDY_TEMPLATE.md` |
-| Browser/mobile regression | Not Started | Manually verify edited public pages | Required before heavy outreach |
-| First real outreach | Not Started | Contact qualified prospects | Use lead tracker and outreach packet |
-| First paid client | Not Started | Follow up and send proposal when qualified | Use proposal/onboarding docs |
-| First testimonial/case study | Not Started | Capture after delivery | Do not fake proof |
+| Area | Status | Next Action |
+|---|---|---|
+| Live website | Complete | Verify mobile/regression |
+| Branding metadata | Not Started | Fix browser tab and OG tags |
+| Working links / CTAs | Not Started | Restore tel:, mailto:, demo links |
+| Retainer section on homepage | Not Started | Add to index.html |
+| Lead capture backend | Not Started | Install Formspree per `FORMSPREE_SETUP.md` |
+| Analytics / Search Console | Not Started | Set up per `ANALYTICS_SETUP.md` |
+| Example work / proof section | Not Started | Add named concept sites |
+| Outreach packet | Complete | Start using for prospects |
+| Intake questionnaire | Complete | Use when lead is interested |
+| Quick estimate guide | Complete | Use before quoting |
+| Proposal template | Complete | Use for qualified leads |
+| First-client delivery checklist | Complete | Use after close |
+| Proof workflow / case study | Complete | Use after delivery |
+| First real outreach | Not Started | Contact 20 qualified prospects |
+| First paid client | Not Started | Follow up and send proposal |
+| First testimonial / case study | Not Started | Capture after delivery |
+| Hosting upgrade (Vercel/Netlify) | Not Started | Do after first revenue |
+
+---
 
 ## Document Authority Model
 
 Use documents in this order:
 
-1. `README.md` — public repo/business overview
+1. `README.md` — public repo and business overview
 2. `docs/INDEX.md` — master document map
-3. `docs/ROADMAP.md` — current execution order and priorities
-4. `docs/CURRENT_STATE_CHECKPOINT_2026-04-25.md` — current site checkpoint and known gaps
-5. `docs/REGRESSION_CHECKLIST_2026-04-25.md` — safety checklist before and after website edits
+3. `docs/ROADMAP.md` — current execution order and priorities (this file)
+4. `docs/CURRENT_STATE_CHECKPOINT_2026-04-25.md` — site checkpoint and known gaps
+5. `docs/REGRESSION_CHECKLIST_2026-04-25.md` — safety checklist before and after edits
 6. `docs/PUBLIC_LAUNCH_CHECKLIST.md` — prospect-readiness checklist
-7. `docs/LEAD_CAPTURE_STRATEGY_A_NOW_C_LATER_2026-04-25.md` — Formspree-now/custom-backend-later decision
-8. Sales docs — outreach, scripts, intake, estimate, proposal, and onboarding
-9. Delivery docs — first-client delivery checklist and client onboarding
-10. Proof docs — proof workflow and case study template
-11. Older audit and background docs — approved context and reasoning history
+7. Sales docs — outreach, scripts, intake, estimate, proposal, onboarding
+8. Delivery docs — first-client checklist and client onboarding
+9. Proof docs — proof workflow and case study template
+10. Background and audit docs — approved context and reasoning history
 
-Older docs remain approved references. This roadmap controls current execution order.
-
-## Phase 1 — Clean Foundation
-
-Target: this week
-
-Goal: make the current site trustworthy, measurable, and ready for real outreach.
-
-Tasks:
-
-- [ ] Replace mailto contact form with Formspree or equivalent
-- [ ] Verify form submissions end-to-end
-- [ ] Add Google Analytics 4
-- [ ] Add Google Search Console
-- [x] Remove visible legacy Y.O.U. branding from confirmed public-facing pages reviewed so far
-- [x] Run first-pass placeholder search before outreach
-- [x] Confirm documented contact email and phone are consistent in updated public pages
-- [ ] Keep the full homepage intact when editing `index.html`
-- [ ] Run browser/mobile regression check on edited public pages
-
-Success criteria:
-
-- Real form works
-- Analytics/search tracking active
-- No obvious public brand drift
-- Demo links used in outreach are clean
-- Site is safe to send to real prospects
-
-## Phase 2 — First Revenue
-
-Target: next 30 days
-
-Goal: get the first paying client.
-
-Tasks:
-
-- [ ] Contact 20 qualified local prospects
-- [ ] Track prospects in the approved lead tracker
-- [ ] Send niche-relevant demo links
-- [ ] Follow up consistently
-- [ ] Use response scripts when leads reply
-- [ ] Use intake questionnaire when a lead is interested
-- [ ] Use quick estimate guide before quoting
-- [ ] Use proposal template for qualified leads
-- [ ] Close first paid refresh or starter website
-- [ ] Use first-client delivery checklist after close
-- [ ] Capture testimonial after delivery
-
-Weekly targets:
-
-- 25 businesses researched
-- 10 businesses contacted
-- 5 follow-ups sent
-- 2 real conversations started
-- 1 proposal sent when qualified
-
-Success criteria:
-
-- First paid client
-- First testimonial or case study
-- Real sales feedback gathered
-
-## Phase 3 — Proof Engine
-
-Target: 30–90 days
-
-Goal: turn early work into proof.
-
-Tasks:
-
-- [ ] Publish first case study
-- [ ] Add before/after screenshots
-- [ ] Add testimonial with permission
-- [ ] Create one-page offer sheet
-- [ ] Improve local service pages based on actual target markets
-- [ ] Create or optimize Google Business Profile
-- [ ] Start asking for reviews and referrals
-
-Success criteria:
-
-- At least one real client result
-- Public proof on homepage
-- Local trust signals improved
-
-## Phase 4 — Repeatable Delivery
-
-Target: after first client
-
-Goal: make client work repeatable.
-
-Tasks:
-
-- [ ] Test intake questionnaire against real lead conversation
-- [ ] Test quick estimate guide against real quote conversation
-- [ ] Standardize proposal flow
-- [ ] Standardize onboarding process
-- [ ] Test first-client delivery checklist against real client work
-- [ ] Standardize revision process
-- [ ] Standardize launch checklist
-- [ ] Track time spent per project
-- [ ] Identify which package is easiest to sell and deliver
-
-Success criteria:
-
-- A client can move from lead to launch without custom chaos
-- Pricing becomes easier to defend
-- Delivery quality improves
-
-## Phase 5 — Smart Expansion
-
-Target: only after repeatable client work exists
-
-Goal: add systems only when they solve real pain.
-
-Possible later upgrades:
-
-- Custom lead backend
-- CRM dashboard
-- Booking/calendar flow
-- Client portal
-- Maintenance plans
-- Nova-powered lead summaries
-- Nova-powered draft replies
-- Reporting dashboard
-
-Rule:
-
-Do not build advanced automation before there are real clients and real workflow problems.
-
-## Highest ROI Actions Now
-
-1. Install real form backend.
-2. Add analytics and Search Console.
-3. Run browser/mobile regression on edited public pages.
-4. Manually review any demo before sending it to a specific prospect.
-5. Contact real prospects.
-6. Use intake and estimate guides for interested leads.
-7. Close first small paid project.
-8. Use delivery and proof workflow to turn that work into proof.
+---
 
 ## What Not To Do Right Now
 
-- Do not create more overlapping roadmap docs.
-- Do not endlessly redesign the homepage.
-- Do not overbuild Nova integration yet.
-- Do not add complex backend systems before lead volume exists.
-- Do not call conceptual proof a case study.
-- Do not let older approved docs override the current execution order.
+- Do not create more overlapping roadmap docs
+- Do not redesign the homepage again
+- Do not overbuild Nova integration yet
+- Do not add complex backend systems before lead volume exists
+- Do not call conceptual proof a case study
+- Do not let older approved docs override the current execution order
+
+---
 
 ## Operating Rule
 
@@ -253,3 +263,15 @@ Every new task should support at least one of these outcomes:
 4. Delivery
 5. Proof
 6. Retention
+
+---
+
+## Honest Assessment
+
+You are not building a website anymore. You are building a small, structured web service business.
+
+**What you have:** strong foundation, clear direction, real pricing, operational docs, live upgraded site.
+
+**What separates you from making money now:** lead capture, proof, outreach, execution.
+
+You don't need more features. You need to fix the small gaps, start getting clients, deliver well, and offer the retainer.
