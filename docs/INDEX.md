@@ -1,10 +1,10 @@
 # Auralis Digital — Document Index
 
-Last updated: 2026-04-30
+Last updated: 2026-05-01
 
 ## How to navigate this
 
-Four folders plus four root-level files. Start at root, go deeper as needed.
+Four folders plus five root-level files. Start at root, go deeper as needed.
 
 ---
 
@@ -15,6 +15,7 @@ Four folders plus four root-level files. Start at root, go deeper as needed.
 | `ROADMAP.md` | Phase-by-phase execution plan. Current priority order. |
 | `STATUS.md` | Current business state snapshot. |
 | `SPRINT_EXECUTION_48HR.md` | Hour-by-hour checklist for the active client acquisition sprint. |
+| `KNOWN_SITE_TODOS.md` | Known remaining website issues. Active tracking. |
 | `INDEX.md` | This file. |
 
 ---
@@ -85,7 +86,6 @@ Everything needed to build, deploy, and maintain the website.
 | `FORM_BACKEND_OPTIONS.md` | Comparison of form backend options |
 | `ANALYTICS_SETUP.md` | GA4 and Search Console setup guide |
 | `LEAD_CAPTURE_STRATEGY_A_NOW_C_LATER_2026-04-25.md` | Formspree-now / custom-later decision |
-| `KNOWN_SITE_TODOS.md` | Known remaining site issues |
 | `TODO_BRANDING_METADATA_FIX.md` | Branding metadata fix record (completed) |
 | `TODO_HOSTING_PLATFORM.md` | Hosting platform decision record |
 | `ASSET_MANIFEST.md` | Site asset inventory |
@@ -110,16 +110,14 @@ These docs were accurate at the time they were written. Current state is control
 | `CURRENT_BUSINESS_STATE_2026-04-24.md` | State snapshot April 24 |
 | `CURRENT_STATE_CHECKPOINT_2026-04-25.md` | State checkpoint April 25 |
 | `FINDINGS_TODO_ROADMAP_2026-04-25.md` | April 25 findings |
+| `KNOWN_SITE_TODOS_STALE_2026-04-26.md` | Old site todos (superseded by root `KNOWN_SITE_TODOS.md`) |
 | `LEGACY_STATIC_SITE_NOTE.md` | Notes on old static site |
 | `LLC_WEBSITE_NEXT_STEPS_TOOLKIT_2026-04-24.md` | Early next steps doc |
 | `NEXT_STEPS_EXECUTION_PLAN_2026-04-26.md` | April 26 execution plan |
 | `NEXT_STEPS_IMPLEMENTATION_PLAN_2026-04-25.md` | April 25 implementation plan |
+| `NEXT_STEPS_TODO.md` | Early phase/outreach strategy roadmap |
 | `REPO_CLEANUP_PLAN_2026-04-24.md` | Repo cleanup plan |
+| `TRUST_AUDIT_RESPONSE_2026-04-25.md` | Response to external trust/credibility audit |
+| `WEBSITE_LLC_BUSINESS_FOUNDATION_2026-04-22.md` | Original business foundation document |
 | `WEBSITE_RECOMMENDATIONS_AND_3_PASS_COMPLETION_2026-04-25.md` | 3-pass completion notes |
 | `session-audit-2026-04-25.md` | April 25 session audit |
-
----
-
-## FOUNDATION/
-
-Original business foundation documents. Background context only.
